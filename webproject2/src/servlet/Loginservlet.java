@@ -16,8 +16,8 @@ public class Loginservlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String username = req.getParameter("username");
-        String password =req.getParameter("password");
+        String username = req.getParameter("username");//数据库正确的username=lqh
+        String password =req.getParameter("password");//正确的密码是1234
 
         User user= null;
         try {
