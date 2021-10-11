@@ -3,7 +3,7 @@ package utils;
 import java.sql.*;
 
 import static java.lang.Class.forName;
-
+//database工具类
 public class DBUtil {
     //建立连接；
     public static Connection getConnection() throws SQLException, ClassNotFoundException {

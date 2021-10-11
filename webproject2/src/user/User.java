@@ -1,5 +1,5 @@
 package user;
-
+//实体类，保存用户信息
 public class User {
     private  String username;
     private  String password;
